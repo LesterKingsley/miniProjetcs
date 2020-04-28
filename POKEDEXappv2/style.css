@@ -1,0 +1,80 @@
+body
+	{
+		background-color: #222;
+		width: 100vw;
+		height: 100vh;
+		color:white;
+		margin:0;
+	}
+	#navbar
+	{
+		font-family: arial;
+		font-size:3em;
+		font-weight: bold;
+		background-color: black;
+		padding-left: 10px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding-top: 5px;
+	}
+	#navbar img
+	{
+		width: 45px;
+		height: auto;
+	}
+	#searchBox
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10px;
+	}
+	#searchBar
+	{
+		font-size: 2.5vw;
+	}
+	#searchButton img
+	{
+		width: 2.5vw;
+		height:auto;
+	}
+	#pokedex
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#pokePic img
+	{
+		width: 250px;
+		height: auto;
+	}
+	#pokeDescript
+	{
+		font-family: arial;
+		line-height:30px;
+	}
+	#pokeDescript #name
+	{
+		font-size:20px;
+		font-weight: bold;
+	}
+	#pokeBox
+	{
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+		align-items: center;
+		justify-content: center;
+		font-family: arial;
+		overflow-y: scroll;
+		height:250px;
+		margin-top: 10px;
+	}
+	#pokeBox div
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+	}
